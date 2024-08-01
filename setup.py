@@ -7,8 +7,8 @@ setup(
     install_requires=[
         'click'
     ],
-    entry_point='''
+    entry_points='''
         [console_scripts]
         calc=calculator.cli:calc
-    ,,,
+    '''
 )
